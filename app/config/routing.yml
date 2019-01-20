@@ -1,0 +1,20 @@
+user:
+    resource: "@UserBundle/Resources/config/routing.yml"
+    prefix:   /
+
+
+
+catalogue_categorie:
+    resource: "@CatalogueBundle/Resources/config/routing_categorie.yml"
+    prefix:   /Categorie/
+
+catalogue_article:
+    resource: "@CatalogueBundle/Resources/config/routing_article.yml"
+    prefix:   /Article/
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
